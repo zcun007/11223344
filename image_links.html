@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Michael Website</h1>
+        <p>This website features images related to technology, nature, and food.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our homepage! Explore the amazing world of technology.</p>
+        <a href="https://media.istockphoto.com/id/1277749962/photo/engineer-architect-construction-worker-on-construction-site-with-tablet-computer.webp?s=1024x1024&w=is&k=20&c=9S_nS_QWtprHjnMUKrqCrq8qsn5T9cZWXuR1Lz4aZTg=" target="_blank">
+            <img src="Engineering_management.jpg" alt="Engineering Management">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://media.istockphoto.com/id/157681198/photo/dandelion-seed.webp?s=1024x1024&w=is&k=20&c=UyxJGMBk9X0K8y9dC536GO6VYjETfqUCZ9GT1dPHReg=" target="_blank">
+                <img src="dandelion_image.jpg" alt="Dandelion Image Mist">
+            </a>
+            <a href="https://media.istockphoto.com/id/511940812/photo/young-plant.webp?s=1024x1024&w=is&k=20&c=oofAfVkCwmZuFvM_J08AA6tsPHZJdgei9WmSwr_sFCw=" target="_blank">
+                <img src="plant_image.jpg" alt="Young Plant">
+            </a>
+            <a href="https://media.istockphoto.com/id/1255203350/photo/teamwork-friendship-hiking-help-each-other-trust-assistance-silhouette-in-mountains-sunrise.jpg?s=1024x1024&w=is&k=20&c=On3rQy4GFVRKRxEj81a3NkWQ8XLgfc0t_t2A2Taf_2M=" target="_blank">
+                <img src="sunset.jpg" alt="Sunset on Mountains">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="https://media.istockphoto.com/id/1324465031/photo/high-angle-view-close-up-asian-woman-using-meal-delivery-service-ordering-food-online-with.jpg?s=1024x1024&w=is&k=20&c=SBTB9mNIoDe1Ua6OrZfnpY2ad52OdXdTfuRRM2IzVHI=" target="_blank">
+                    <img src="food_app_order.jpg" alt="Food Order from Phone">
+                </a>
+                - Food App
+            </li>
+            <li>
+                <a href="https://media.istockphoto.com/id/589415708/photo/fresh-fruits-and-vegetables.jpg?s=1024x1024&w=is&k=20&c=mb1EBDCszi7HP1FxgCPNTh3N1IgV03_N4rCnO_AtStc=" target="_blank">
+                    <img src="fresh_friuts_vegetables.jpg" alt="Fruits and Vegetables">
+                </a>
+                - Fresh Fruits and Vegetables
+            </li>
+            <li>
+                <a href="https://media.istockphoto.com/id/1345370511/vector/food-waste-concept.jpg?s=1024x1024&w=is&k=20&c=SCe9nlfsqBSAzVWV2yPca0KFspFd27x2oUMyGIUtmqE=" target="_blank">
+                    <img src="food_waste.jpg" alt="Food Disposal">
+                </a>
+                - Food Disposal
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PLP Week 2 Image Links</p>
+    </footer>
+
+</body>
+</html>
