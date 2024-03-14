@@ -1,0 +1,54 @@
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+/* Introduction Section Styling */
+.introduction {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Skills Display Styling */
+.skills {
+    margin: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Information Styling */
+.contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact li a:hover {
+    color: #555;
+}
